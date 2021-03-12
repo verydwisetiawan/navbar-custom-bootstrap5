@@ -1,0 +1,45 @@
+.shape {
+  width: 100%;
+  background: #3fa7d5;
+  height: 900px;
+  position: absolute;
+  top: -500px;
+  clip-path: circle(60% at 50% 20%);
+  -webkit-clip-path: circle(60% at 50% 20%);
+  z-index: -999;
+}
+.navbar-nav .nav-item:hover {
+  border-bottom: 2px solid #fff;
+}
+.navbar-nav li a.active {
+  border-bottom: 2px solid #fff;
+}
+h1 {
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 5vw;
+  color: #fff;
+}
+h1 span {
+  color: #fbc02d;
+}
+.text-justify {
+  text-align: justify;
+}
+.content {
+  margin-top: 220px;
+}
+
+@media only screen and (max-width: 812px) {
+  .shape {
+    clip-path: circle(80% at 50% 20%);
+    -webkit-clip-path: circle(80% at 50% 20%);
+  }
+  h1 {
+    padding-top: 20px;
+    font-size: 10vw;
+  }
+  .content {
+    margin-top: 150px;
+  }
+}
